@@ -30,3 +30,8 @@ changed dip policies [func]
 changed mil policies [func]
 changed transportation and recruitment acts [func], no cosmetic changes needed
 changed policy costmetics
+ran test of all idea and policy alterations
+fixed innovative ideas bug
+fixed religious-exploration policy bug
+transferred all mods into github under repository name EU4-mods
+changelog will no longer be needed
