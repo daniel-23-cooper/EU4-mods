@@ -1,0 +1,32 @@
+changelog for  Balanced Idea Groups Mod
+27-08-2020
+00_basic_ideas & powers_and_ideas_l_english
+altered naval ideas [func]
+altered naval ideas [cosm]
+altered maritime ideas [func]
+28-08-2020
+altered maritime ideas [cosm]
+altered exploration, now colonisation ideas [f/c]
+altered expansion ideas [f/c}
+altered offensive ideas [f/c]
+altered defensive ideas [f/c]
+altered quality ideas [f/c]
+altered quantity ideas [f/c]
+altered trade ideas [func]
+cosmetic changes not needed for trade ideas
+altered innovative ideas [f/c]
+altered espionage ideas [func]
+cosmetic changes not needed for espionage
+altered influence ideas [f/c]
+very small tweak to religious and humanist ideas [func]
+fixed unsaved changes to offensive ideas [func]
+fixed a stat in quality ideas [func]
+changed bonus to influence ideas due to not working outside of the age bonus mechanic
+29-08-2020
+created instructions for manual file insertion
+30-08-2020
+changed adm policies [func]
+changed dip policies [func]
+changed mil policies [func]
+changed transportation and recruitment acts [func], no cosmetic changes needed
+changed policy costmetics
