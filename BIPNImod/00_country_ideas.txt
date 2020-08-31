@@ -109,7 +109,7 @@ ENG_ideas = {
 	navigation_acts = {
 		tolerance_heretic = 1
 	}
-	eng_red_coats = {
+	red_coats = {
 		light_ship_cost = -0.25
 	}
 	sick_and_hurt_board = {
@@ -120,7 +120,7 @@ ENG_ideas = {
 	}
 }
 
-ENG_ideas = {
+GBR_ideas = {
 	start = {
 		navy_tradition = 1 # agincourt
 		light_ship_power = 1 # magna carta, parliament
@@ -131,34 +131,34 @@ ENG_ideas = {
 	}
 	
 	trigger = {
-		tag = ENG
+		tag = GBR
 	}
 	free = yes		#will be added at load.
 	
-	royal_navy = {
+	gbr_royal_navy = {
 			stability_cost_modifier = -0.1
 			global_unrest = -1
 	}
-	eltham_ordinance = {
+	gbr_eltham_ordinance = {
 			global_prov_trade_power_modifier = 0.1
 			global_ship_trade_power = 0.5
 	}
-	secretaries_of_state = {
+	gbr_secretaries_of_state = {
 		administrative_efficiency = 0.05
 	}
-	navigation_acts = {
+	gbr_navigation_acts = {
 		tolerance_heretic = 1
 		church_power_modifier = 0.2
 	}
-	eng_red_coats = {
+	gbr_red_coats = {
 		light_ship_cost = -0.25
 		allowed_marine_fraction = 0.1
 	}
-	sick_and_hurt_board = {
+	gbr_sick_and_hurt_board = {
 		fire_damage = 0.1
 		shock_damage_received = -0.1
 	}
-	british_bill_of_rights = {
+	gbr_british_bill_of_rights = {
 		colonists = 1
 		global_colonial_growth = 20
 	}
