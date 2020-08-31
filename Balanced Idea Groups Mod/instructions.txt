@@ -1,8 +1,0 @@
-Instructions for how to insert the modded files into the live version of EU4
-IMPORTANT: Make sure you have a backup of EU4, either manually or through Steam
-To insert the file, copy the file, go to the address and paste the file, and click the option to overwrite the current file.
-00_basic_ideas.txt controls idea groups and has address Steam > steamapps > Europa Universalis IV > common > ideas
-00_adm.txt, 00_dip.txt and 00_mil.txt are the files that control policies and together have address Steam > steamapps > Europa Universalis IV > common > policies
-powers_and_ideas_1_english.yml and policies_l_english.yml are the cosmetic files that determine names and descriptions and have address Steam > steamapps > Europa Universalis IV > localisation
-00_country_ideas.txt contains the altered ideas for England, Great Britain, Scotland, Ireland and Scandinavia and has address Steam > steamapps > Europa Universalis IV > common > ideas
-The altered country ideas are of course optional, as you may wish to play with the usual idea sets for these nations.
