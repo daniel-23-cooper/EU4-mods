@@ -5,4 +5,4 @@ To insert the file, copy the file, go to the address and paste the file, and cli
 00_adm.txt, 00_dip.txt and 00_mil.txt are the files that control policies and together have address Steam > steamapps > Europa Universalis IV > common > policies
 powers_and_ideas_1_english.yml and policies_l_english.yml are the cosmetic files that determine names and descriptions and have address Steam > steamapps > Europa Universalis IV > localisation
 00_country_ideas.txt contains the altered ideas for England, Great Britain, Scotland, Ireland and Scandinavia and has address Steam > steamapps > Europa Universalis IV > common > ideas
-The altered country ideas are of course optional, as you may wish to play with the usual idea sets for these nations.
+ScandinavianNation is the new formation decision for Scandinvia and has address Steam > steamapps > Europa Universalis IV > common > decisions
