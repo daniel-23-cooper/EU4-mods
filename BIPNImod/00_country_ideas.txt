@@ -84,12 +84,12 @@ GER_ideas = {
 
 ENG_ideas = {
 	start = {
-		infantry_power = 0.10 # agincourt
-		global_unrest = -1 # magna carta, parliament
+		navy_tradition = 0.5 # agincourt
+		light_ship_power = 1 # magna carta, parliament
 	}
 
 	bonus = {
-		free_leader_pool = 1
+		global_trade_goods_size_modifier = 0.2
 	}
 	
 	trigger = {
@@ -98,69 +98,69 @@ ENG_ideas = {
 	free = yes		#will be added at load.
 	
 	royal_navy = {
-			navy_tradition = 0.25
-			heavy_ship_power = 0.10
+			stability_cost_modifier = -0.1
 	}
 	eltham_ordinance = {
-			production_efficiency = 0.1
+			global_prov_trade_power_modifier = 0.1
 	}
 	secretaries_of_state = {
-		diplomatic_upkeep = 1
+		administrative_efficiency = 0.05
 	}
 	navigation_acts = {
-		trade_efficiency = 0.1
+		tolerance_heretic = 1
 	}
 	eng_red_coats = {
-		fire_damage = 0.1
-		allowed_marine_fraction = 0.05
+		light_ship_cost = -0.25
 	}
 	sick_and_hurt_board = {
-		sailors_recovery_speed = 0.10
-		sailor_maintenance_modifer = -0.1
+		fire_damage = 0.1
 	}
 	british_bill_of_rights = {
-		years_of_nationalism = -5
+		colonists = 1
 	}
 }
 
-GBR_ideas = {
+ENG_ideas = {
 	start = {
-		naval_morale = 0.20
-		heavy_ship_power = 0.15
+		navy_tradition = 1 # agincourt
+		light_ship_power = 1 # magna carta, parliament
 	}
 
 	bonus = {
-		navy_tradition = 1
+		global_trade_goods_size_modifier = 0.2
 	}
 	
 	trigger = {
-		tag = GBR
+		tag = ENG
 	}
 	free = yes		#will be added at load.
-
-	gbr_acts_of_union = {
-		diplomatic_annexation_cost = -0.15
-		governing_capacity_modifier = 0.1
+	
+	royal_navy = {
+			stability_cost_modifier = -0.1
+			global_unrest = -1
 	}
-	city_upon_a_hill = {
+	eltham_ordinance = {
+			global_prov_trade_power_modifier = 0.1
+			global_ship_trade_power = 0.5
+	}
+	secretaries_of_state = {
+		administrative_efficiency = 0.05
+	}
+	navigation_acts = {
+		tolerance_heretic = 1
+		church_power_modifier = 0.2
+	}
+	eng_red_coats = {
+		light_ship_cost = -0.25
+		allowed_marine_fraction = 0.1
+	}
+	sick_and_hurt_board = {
+		fire_damage = 0.1
+		shock_damage_received = -0.1
+	}
+	british_bill_of_rights = {
+		colonists = 1
 		global_colonial_growth = 20
-	}
-	british_merchant_navy = {
-		global_tariffs = 0.15
-	}
-	gbr_the_royal_society = {
-		technology_cost = -0.05
-	}
-	reform_of_comission_buying = {
-		discipline = 0.05
-	}
-	british_industrialization = {
-		global_trade_goods_size_modifier = 0.2
-	}
-	britanna_rules_the_waves = {
-		leader_naval_manuever = 1
-		blockade_efficiency = 0.33
-		allowed_marine_fraction = 0.10
 	}
 }
 
@@ -1351,12 +1351,12 @@ GEN_Ideas = {
 
 SCO_Ideas = {
 	start = {
-		leader_land_shock = 1
-		land_forcelimit_modifier = 0.33
+		diplomatic_upkeep = 1
+		improve_relation_modifier = 0.33
 	}
 	
 	bonus = {
-		land_maintenance_modifier = -0.05
+		heavy_ship_power = 0.1
 	}
 	
 	trigger = {
@@ -1365,25 +1365,29 @@ SCO_Ideas = {
 	free = yes
 	
 	break_the_black_douglas = {
-		global_unrest = -1
+		land_morale = 0.1
+		mercenary_cost = -0.2
 	}
 	modernised_royal_scots_navy = {
-		global_ship_cost = -0.1
+		advisor_pool = 1
+		advisor_cost = -0.2
 	}
 	reign_in_the_clans = {
-		global_manpower_modifier = 0.2
+		land_forcelimit_modifier = 0.2
+		naval_forcelimit_modifier = 0.2
 	}
 	comets = {
-		stability_cost_modifier = -0.10
+		ae_impact = -0.2
 	}
 	royal_revenue = {
-		global_tax_modifier = 0.1
+		defensiveness = 0.2
+		fort_maintenance_modifier = -0.25
 	}
 	basilikon_doron = {
-		legitimacy = 1
+		development_cost = -0.1
 	}
 	act_of_revocation = {
-		ae_impact = -0.15
+		global_missionary_strength = 0.02
 	}
 }
 
