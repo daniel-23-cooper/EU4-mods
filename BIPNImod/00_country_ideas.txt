@@ -481,7 +481,7 @@ SCA_ideas = {
 	sca_rentekammer = {
 		build_cost = -0.15
 	}
-	sca_copenhagen_dockyard = 
+	sca_copenhagen_dockyard = {
 		naval_forcelimit_modifier = 0.25
 		naval_maintenance_modifier = -0.15
 	}
