@@ -487,7 +487,7 @@ SCA_ideas = {
 	}
 	sca_swedish_steel = {
 		discipline = 0.05
-		infantry_power = 10
+		infantry_power = 0.1
 	}
 	sca_baltic_traders = {
 		global_trade_power = 0.25
