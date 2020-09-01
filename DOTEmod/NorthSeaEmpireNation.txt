@@ -1,0 +1,106 @@
+country_decisions = {
+
+	northseaempire_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_northseaempire_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { exists = NSE }
+			NOT = { tag = PAP }
+			NOT = { tag = HLR }
+			NOT = { tag = SCA }
+			NOT = { tag = ENG }
+			NOT = { tag = GBR }
+			culture_group = scandinavian
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 10
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 4367		# Hull
+				province_id = 245		# York
+				province_id = 248		# Lothian
+				province_id = 251		# Aberdeen
+				province_id = 370		# Reykjavik
+				province_id = 17		# Akershus
+				province_id = 12        # Sjaelland
+				province_id = 20		# Trondelag
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			owns_core_province = 4367	# Hull
+			owns_core_province = 245	# York
+			owns_core_province = 248	# Lothian
+			owns_core_province = 251	# Aberdeen
+			owns_core_province = 370	# Reykjavik
+			owns_core_province = 17		# Akershus
+			owns_core_province = 12     # Sjaelland
+			owns_core_province = 20		# Trondelag
+			OR = {
+				maritime_ideas = 1
+				exploration_ideas = 1
+			}
+		}
+		effect = {
+			change_tag = NSE
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = { NOT = { government_rank = 3 } }
+				set_government_rank = 3
+			}
+			scandinavia_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = NSE
+			}
+			british_isles_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = NSE
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = {
+				limit = {
+					has_custom_ideas = no
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			set_country_flag = formed_northseaempire_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}
