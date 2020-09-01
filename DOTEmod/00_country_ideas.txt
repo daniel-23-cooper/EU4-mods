@@ -4,6 +4,54 @@
 
 ### Nation specific idea groups
 
+RRE_ideas = {
+	start = {
+		global_trade_power = 0.15
+		development_cost = -0.1
+	}
+	
+	bonus = {
+		stability_cost_modifier = -0.1
+	}
+	
+	trigger = {
+		tag = RRE
+	}
+	free = yes
+	
+	rre_permanent_veche = {
+		governing_capacity_modifier = 0.25
+		republican_tradition = 0.3
+	}
+	
+	rre_siberian_frontiers = {
+		may_establish_frontier = yes
+	}
+	
+	rre_reform_the_militias = {
+		discipline = 0.05
+		global_manpower_modifier = 0.33
+	}
+	
+	rre_western_trade_links = {
+		technology_cost = -0.1
+		merchants = 1
+	}
+	
+	rre_detinets_armoury = {
+		infantry_fire = 1
+		infantry_power = 0.15
+	}
+	
+	rre_shipyards = {
+		light_ship_cost = -0.25
+	}
+	
+	rre_state_manufactories = {
+		production_efficiency = 0.15
+	}
+}
+
 NSE_ideas = {
 	start = {
 		may_perform_slave_raid = yes
