@@ -87,7 +87,7 @@ NSE_ideas = {
 		dip_tech_cost_modifier = -0.1
 	}
 	
-	nse_merchant_adventures = {
+	nse_merchant_adventurers = {
 		blockade_efficiency = 0.5
 		privateer_efficiency = 0.5
 	}
