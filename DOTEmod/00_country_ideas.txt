@@ -4,6 +4,57 @@
 
 ### Nation specific idea groups
 
+NSE_ideas = {
+	start = {
+		may_perform_slave_raid = yes
+		loot_amount = 1
+	}
+	
+	bonus = {
+		ignore_coring_distance = yes
+	}
+	
+	trigger = {
+		tag = NSE
+	}
+	free = yes
+	
+	nse_danelaw = {
+		global_tax_modifier = 0.15
+		global_unrest = -1
+	}
+	
+	nse_leif_erikson = {
+		colonists = 1
+		range = 0.2
+	}
+	
+	nse_warrior_lifestyle = {
+		manpower_recovery_speed = 0.2
+		army_tradition = 1
+	}
+	
+	nse_innovative_ship_design = {
+		galley_power = 0.5
+		dip_tech_cost_modifier = -0.1
+	}
+	
+	nse_merchant_adventures = {
+		blockade_efficiency = 0.5
+		privateer_efficiency = 0.5
+	}
+	
+	nse_for_frigga = {
+		female_advisor_chance = 0.5
+		may_recruit_female_generals = yes
+	}
+	
+	nse_surprise_tactics = {
+		land_morale = 0.2
+		shock_damage = 0.1
+	}
+}
+
 HLR_ideas = {
 	start = {
 		possible_policy = 1
