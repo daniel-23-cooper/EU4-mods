@@ -8,3 +8,4 @@ powers_and_ideas_1_english.yml and policies_l_english.yml are the cosmetic files
 ScandinavianNation, NorthSeaEmpireNation are the formations and have Steam > steamapps > Europa Universalis IV > common > decisions
 00_countries controls tags and has address Steam > steamapps > Europa Universalis IV > common > country_tags
 NorthSeaEmpire.txt and RussianRepublic.txt have address Steam > steamapps > Europa Universalis IV > common > countries
+00_country_colors control colors and has address Steam > steamapps > Europa Universalis IV > common > country_colors
