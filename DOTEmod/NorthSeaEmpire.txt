@@ -1,4 +1,4 @@
-#Norway 
+#NorthSeaEmpire
 
 graphical_culture = westerngfx
 
